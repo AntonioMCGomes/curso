@@ -1,0 +1,80 @@
+Estudo básico de tipografia
+
+	1. Anatomia do Tipo
+		
+		1.1 Medidas 
+			A letra X é o ponto de partida para a definir o tamanho das outras.
+			
+			Ex. 
+				Asjklfjxls
+				
+				* a altura do x em relação às outras minúsculas é chamado de altura-x;
+				* a altura da maiúsculas em relação às outras é altura da maiúsculas;
+				* a altura das minúsculas que vazam em relação à altura-x é ascendente;
+				* a altura das minúsculas que vazam em relação à altura-x é descendente;
+				* todas as alturas recebem o nome de corpo;
+		1.2 Anatômicos geométricos
+			
+			Serifas, é o prolongamento da forma de uma letra em algumas fontes;
+			Vértice, a parte pontiaguda da junção de duas hastes
+			Filete, é o que juntas duas hastes
+			Esporão, é a base para manter uma letra
+			Haste, é uma coluna para sustentar a letra
+			Arco, é uma curva para modelar a letra
+			Terminal, é um prolongamento para finalizar a letra
+	
+		1.3 Anatomias humanizadas
+			
+			Pé;
+			Braço;
+			Perna;
+			Barriga;
+			Espinha;
+			Olho;
+			Orelha;
+			Cauda;
+	2. Glifo
+		
+		Glifo é uma letra
+		O conjunto de vários glifos, numa determinada família, chama-se fonte.
+			
+			2.1 famílias tipográficas
+
+				* Uma letra pode ser representada de diversas formas.
+				A letra "A", por exemplo, tem tipos: light, normal, seminegrito, negrito, extranegrito. 
+				
+				* Nem todas as fontes tem todos esses tipos.
+	
+			2.2 categorias de fontes
+	
+				* Serifadas, porque tem serifas;
+				* Sans-serif, sem serifa;
+				* Monoespaçada, todas as letras ocupam o mesmo espaço lateralmente;
+				* handwriting, simula a escrita à mão;
+				* display, são fontes comemorativas, que não precisam seguir as regras tipográficas à risca.
+
+
+Obs. Procure Safe combinations, que é uma generalização da fonte, o que faz o navegador procurar por algumas das fontes apontadas. Site para procura "Web Safe font Combinations. 
+
+
+	3. Tamanho de Fonte
+	
+		3.1 Medidas absolutas
+			
+			* Centímetros;
+			* Milímetros;
+			* Pixels;
+			* Ponto;
+			* Paica;
+
+		3.2 Medidas relativas
+
+			* em, relacionada ao "M" maiúsculo de uma letra;
+			* ex, ao tamanho da altura "X" de uma fonte;
+			* rem, relativa ao "root" do body;
+			* view width, porcentagem da largura;
+			* vh, altura da view port.
+			* %
+	
+		Para medida de fonte, recomenda-se usar do "px" e do "em"
+		16px é equivalente a 1 em, pois o "em". Assim, dois 2 em equivale a 32px;

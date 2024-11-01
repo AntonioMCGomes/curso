@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h1{ 
+    /*
+    box-sizing
+
+    É possível transformar um box-level em box-inline:
+    
+    display: inline;
+    
+    e o contrário também é verdade.
+
+    display: block
+
+    */
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    /*
+    Uso de shorthands nas declarações abaixo:
+    */
+    border: 10px solid darkslategray;
+    
+    padding: 10px 10px 10px 10px;
+
+    margin: 10px auto 10px auto;
+    
+    outline: 5px dashed salmon;
+
+    
+}
+
+a{
+    border-width: 10px;
+    border-style: solid;
+    background-color: red;
+}

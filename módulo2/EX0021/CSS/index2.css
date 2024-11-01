@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+header#cabeça{
+    background-color: rgba(206, 194, 194, 0.73);
+    height: auto;
+    width: auto;
+    margin: auto, 2em 1;
+    padding: auto auto;
+    text-align: center;
+    box-shadow: black 2em 1em ;
+}
+
+body{
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+article#caixa {
+    background-color: snow;
+    width: auto;
+    margin: auto;
+    padding: 1px 10px;
+    box-shadow: black 2em 1em ;
+}
+
+section#secao{
+    background-color: blanchedalmond;
+    width: auto;
+    margin: auto;
+    padding: 1px 10px;
+    box-shadow: black 2em 1em ;
+}
+
+aside#periferia{
+    background-color: blanchedalmond;
+    width: auto;
+    margin: auto;
+    padding: 1px 10px;
+    box-shadow: black 2em 1em ;
+}
+
+main#principal{
+    background-color: white;
+    width: auto;
+    margin: auto;
+    padding: auto auto;
+    box-shadow: black 2em 1em ;
+}
+
+footer#pe{
+    background-color: blanchedalmond;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 1px 10px;
+    text-align: center;
+    box-shadow: black 2em 1em ;
+}

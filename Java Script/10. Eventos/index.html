@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body onresize="console.log('Houve um redimensionamento')">
+    <h1>Eventos em JavaScritpt</h1>
+
+    <p id="texto"></p>
+
+    <button ondblclick="eventodblclick()">Clique aqui</button> <br><br>
+
+    <select onchange="mudou()"  id="itens">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+        <option value="4">valor 4</option>
+    </select>
+    <br>
+    <div id="teste" onmouseout="viraAzul()" onmouseover="viraVermelho()" style="margin: auto auto; width: 80%; height: 200px; background-color: blue"></div>
+    
+    <br>
+    
+    <input onkeyup="teclaPressionada()" onblur="eventoClick()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa:">
+
+    <script src="JS/index.js"></script>
+</body>
+</html>

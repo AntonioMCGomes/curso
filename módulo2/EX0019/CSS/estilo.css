@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    as id em html são chamadas com #
+    as class em html são chamadas por .
+*/
+
+body{
+    background-color: rgb(181, 224, 181);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+h1{
+    color: green;
+    
+
+}
+
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color:rgb(80, 145, 145);
+}
+
+.basico{
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avançado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgba(213, 213, 138, 0.881);
+}

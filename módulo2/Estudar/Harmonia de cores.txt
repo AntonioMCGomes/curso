@@ -1,0 +1,88 @@
+Harmonia de cores
+
+
+Círculo cromático
+	
+	1. simplificação do círculo para harmonizar as cores
+		
+		1.1 Cores primárias
+			
+			Vermelho;
+			Amarelo;
+			Azul;
+		
+		1.2 Cores secundárias
+
+			Laranja;
+			Violeta;
+			Verde;
+
+		1.3 Cores terciárias
+	
+			Para dar nome a uma cor terciária, usa-se o nome da cor primária antes.
+			ex.:
+
+			amarelo esverdeado;
+			amarelo alaranjado;
+			vermelho alaranjado;
+			vermelho arroxeado;
+			azul arroxeado;
+			azul esverdeado;
+
+			As cores terciárias costumam ter um tom pastel
+	
+	2. Temperatura de cores
+
+		2.1 Cores frias
+			
+			Obtidas pela divisão do círculo cromático por uma seta vertical. As cores frias ocupam o lado esquerdo;
+
+		2.2 Cores quentes
+
+			Obtidas pela divisão do círculo cromático por uma seta vertical. As cores quentes ocupam o lado direito;
+
+	3. Cores complementares
+		
+		São as cores que mais contrastam entre si. Obtém-se pela indicação oposta das cores do círculo cromático feita por uma seta quando posicionada. Assim, se um lado da seta apontar para uma cor, o outro lado da seta apontará para a sua cor oposta, criando o contraste. 
+	
+	4. Cores análogas
+		
+		Em oposição às cores complementares, essas cores buscam semelhança entre si. São obtidas pelo deslocamento lateral (três cores, incluindo a de ponto de partida)em relação a própria cor. Assim, se tenho o amarelo e a seu lado tenho o verde, o verde é uma cor análoga ao amarelo.
+		Pode-se, ainda, incluir uma cor contrastante nessa paleta.
+
+	 5. Cores análogas relacionadas
+	
+		
+		Obtém-se da utilização de duas cores vizinhas e de uma outra cor lateral, excluindo a primeira que fizer vizinhança com as duas cores escolhidas. 
+
+	6. Cores intercaladas
+
+		Tendo o círculo cromático como referência, escolhe-se uma cor. Então, lateralmente, pula-se uma ou mais cores e se escolhe outra cor, até obter o resultado desejado. 
+
+	7. Cores triádicas
+
+		Tendo o círculo cromático como referência, escolhe-se uma cor. Então, lateralmente, pula-se três cores e se usa cor seguinte. Dessa forma, obtém-se um triângulo.
+
+	
+	8. Cores em quadrado
+
+		Tendo o círculo cromático como referência, escolhe-se uma cor. Então, lateralmente, pula-se duas cores e se usa cor seguinte. Dessa forma, obtém-se um quadrado.
+
+	9. Cores tetrádicas
+	
+		Tendo o círculo cromático como referência, escolhe-se uma cor. Então, por uma seta, busca a sua cor complementar (que contrasta). Em seguida, lateralmente, escolho outra cor, e, por uma seta, busco a sua cor complementar. Dessa forma, obtém-se um retângulo.
+
+	10. Monocromia
+
+		Obtém-se da modificação da saturação(luminosidade) e do brilho de uma cor. Esse é o efeito degradê.
+
+		
+
+		
+		 
+
+		
+
+	
+		
+		
