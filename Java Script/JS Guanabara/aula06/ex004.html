@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        var nome = prompt('Infome seu nome: ')
+        document.write(`Olá, ${nome}. Seu nome tem ${nome.length} letras.`);
+        document.write(` Seu nome em MAIÚSCULAS é ${nome.toUpperCase()}<br>`);
+        document.write(`O SEU NOME EM minúsculas é ${nome.toLowerCase()}`)
+
+        //n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'}) //para mostrar padrões de moedas do mundo
+    </script>
+
+    
+</body>
+</html>
