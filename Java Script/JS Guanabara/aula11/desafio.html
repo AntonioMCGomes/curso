@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body{
+            font: normal 18px Arial;
+            text-align: center;
+        }
+
+        div#res{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <input type="text" name="nac" id="nac">
+    <input type="button" value="enviar" id="but" onclick="procurar()">
+
+    <div id="res"></div>
+
+    <script>
+        function procurar(){
+            var nac = document.getElementById('nac').value
+            var res = document.getElementById('res')
+            res.innerHTML = `Você nasceu em ${nac} <br>`
+            if (nac == 'Brasil'){
+                res.innerHTML += `Brasileiro`
+            }else if (nac == ''){
+                res.innerHTML = `Opção inválida! Digite o nome do país onde nasceu.`
+            } else{
+                res.innerHTML += `Estrangeiro`
+            }
+        }
+    </script>
+    
+</body>
+</html>
