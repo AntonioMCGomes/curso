@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    color: aliceblue;
+    color: white;
     text-align: center;
 }
 
@@ -18,8 +18,13 @@ section{
 
 }
 
+div{
+    text-align: center;
+    padding: 8px;
+}
+
 footer{
-    color: aliceblue;
+    color: white;
     text-align: center;
     font-style: italic;
 }
