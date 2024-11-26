@@ -8,4 +8,4 @@ for (var i = 0; i < num.length; i++){
     console.log(num[i])
 }
 
-num.indexOf(8) // para procurar valores pelo índice
+num.indexOf(8) // para procurar valores pelo índice 
