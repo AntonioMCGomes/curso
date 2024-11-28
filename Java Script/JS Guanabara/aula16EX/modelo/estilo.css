@@ -18,6 +18,15 @@ section{
 
 }
 
+#list{
+    margin-top: 25px;
+    width: 150px;
+}
+
+#res{
+    margin-top: 20px;
+}
+
 footer{
     color: aliceblue;
     text-align: center;
