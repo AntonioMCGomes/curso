@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-toogle{
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;  
+}
+
+.menu-list li{
+    margin: 0 15px;
+}
+
+.margin-list a{
+    text-decoration: none;
+    color: white;
+    transition: 0.35;
+}
+
+.menu-list a:hover{
+    color: #ffa500;
+}
