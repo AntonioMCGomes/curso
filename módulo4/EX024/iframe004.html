@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusamus pariatur eos ducimus labore earum esse possimus dignissimos magnam vitae nulla ullam excepturi explicabo, ut quae vel maiores voluptatibus repudiandae.</p>
+
+    <!--
+        * Para impedir a ação maliciosa de terceiros em meu site, uso a tag sandbox
+
+        * Em referrerpolicy="no-referrer-when-downgrade, se usado apenas referrerpolicy="no-referrer, haverá uma indicação de que o conteúdo do iframe não coletará informações do usuário.
+
+        * Sandbox aciona todos os mecanismo de segurança. Entretanto, se eu quiser desligar alguns, posso usar algumas configurações dessa tag, como "allow-same-origin", que criará uma condição para conteúdo do mesmo servidor. Para inserir mais parâmetros, devo dar espaço e escolher outras configurações como allow-forms e allow-scripts. 
+    
+    -->
+
+
+    <iframe src="Páginas Extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer-when-downgrade">
+        <p>Seu navegador não é compatível com esta tecnologia</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusamus pariatur eos ducimus labore earum esse possimus dignissimos magnam vitae nulla ullam excepturi explicabo, ut quae vel maiores voluptatibus repudiandae.</p>
+    
+</body>
+</html>
