@@ -12,14 +12,25 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php"> <!--Para desligar o auto complete:     autocomplete="off"
+    <form action="cadastro.php" method="post"> <!--Para desligar o auto complete:     autocomplete="off"
     * Em PHP, todo objeto de entrada precisa ter um "name".
         -->
-        <p><label for="inome">Nome:</label> 
+        <p><label for="inome" >Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome"></p>
         <input type="submit" value="Enviar">
     </form>
+
+    <!--Por padrão, o método de envio de formulários é o Get. Neste método, os dados do usuário são enviados na URL, o que pode causar insegurança.
+    
+    No método Post, os dados do usuário ficam visívei em na URL. Entretanto, pelo devTools do Chrome, em network, arquivo enviado, headers: fica disponível os dados do usuário.
+    
+    Para proteger esses dados é necessário tulizar o HTTPS, em vez de HTTP. No HTTPS, há criptografia dos dados.
+    
+    Então, quando utilizar os métodos citados?
+    
+    Para dados não sensíveis, como senhas, pode-se usar o Post.
+    Para compartilhar buscas, utiliza-se o método Get.Neste método, só é possível enviar 3 mil bytes. O métodos Post pérmite enviar dados com capacidade maior; e permite o envio de arquivos.-->
 </body>
 </html>
