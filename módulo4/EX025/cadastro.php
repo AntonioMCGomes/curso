@@ -1,0 +1,1 @@
+Os dados foram enviados. Entretanto, nenhuma ação será executada, pois não há ações na linguagem PHP a serem cumpridas.
