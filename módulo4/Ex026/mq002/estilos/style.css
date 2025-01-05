@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*Configuração válida para todos os dispositivos.*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
