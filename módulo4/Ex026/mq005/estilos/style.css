@@ -36,19 +36,23 @@ article p{
     
 }
 
-img{
-    display: none;
-}
+
 
 #menu{
-    
     color: white;
     position: relative;
 }
 
+#menu img{
+    display: none;
+}
+
 #menuList{
     display: flex;
+    
     flex-direction: row;
+    margin: 0px;
+    padding: 0px;
 }
 
 #menuList li{
@@ -66,8 +70,30 @@ img{
 
 
 
-@media screen and (max-width:768px){
-    img{
+@media (max-width:768px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #menu img{
         display: block;
     }
+    #menuList{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+    #menuList li{
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #menuList li a {
+        padding-inline: 185px;
+    }
+
 }
