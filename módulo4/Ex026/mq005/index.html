@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu id="menu" ><img src="img/menu_white_36dp.svg" alt="" id="menuImagem">
-            <ul id="menuList"> 
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul> 
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
                 <li><a href="#">Opção 3</a></li>
@@ -22,18 +24,18 @@
     <main>
         <article>
             <h2>Testando Media Quaries</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis alias labore numquam cum adipisci natus esse magnam, saepe vero explicabo deserunt, excepturi architecto, deleniti ut officiis maxime cumque. Obcaecati, enim!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nulla laudantium autem consequuntur deserunt, libero rerum amet ut et, debitis eius. Ad perferendis ex deserunt, neque reprehenderit optio quo consectetur.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis possimus, minus hic explicabo vitae eligendi impedit molestias quod sint cum eius nihil veritatis adipisci ipsam! Debitis reprehenderit sunt assumenda.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, facere doloribus? Repellendus dicta numquam ducimus placeat nam officia eos sequi nobis enim reiciendis. Repellendus id voluptatum placeat eligendi explicabo magni?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis alias labore numquam cum adipisci natus esse magnam, saepe vero explicabo deserunt, excepturi architecto, deleniti ut officiis maxime cumque. Obcaecati, enim! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum doloremque ducimus atque at facilis saepe et pariatur illum, aliquam, tempora ullam quisquam praesentium numquam mollitia repellat cupiditate iste? Unde, voluptates!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste nulla laudantium autem consequuntur deserunt, libero rerum amet ut et, debitis eius. Ad perferendis ex deserunt, neque reprehenderit optio quo consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, quisquam distinctio maiores animi quae suscipit? Culpa similique voluptas est nobis? Pariatur doloribus impedit quia eveniet consequuntur odit ullam qui dolor!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis possimus, minus hic explicabo vitae eligendi impedit molestias quod sint cum eius nihil veritatis adipisci ipsam! Debitis reprehenderit sunt assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, dolores? Aperiam ducimus aspernatur quia inventore. Accusantium sed soluta deleniti, voluptates quibusdam nisi dolorem magni perspiciatis, animi a vel eius placeat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, facere doloribus? Repellendus dicta numquam ducimus placeat nam officia eos sequi nobis enim reiciendis. Repellendus id voluptatum placeat eligendi explicabo magni? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi placeat corporis autem, ad ducimus corrupti maiores voluptatem dicta, officiis fuga minima laudantium saepe pariatur nesciunt aspernatur, quod recusandae delectus? Sed.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quo unde nihil officiis. Ea, autem beatae? Magnam error, asperiores at modi ab accusantium minima tempore id temporibus, dignissimos sequi doloribus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis modi, magni ducimus, incidunt suscipit at quod architecto temporibus animi minus possimus necessitatibus culpa consequuntur quas maiores corporis accusantium veniam placeat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus similique corporis veniam tempore nostrum, obcaecati optio! Animi quidem necessitatibus soluta aliquid non eveniet expedita reprehenderit, vel aspernatur, molestiae nemo?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, exercitationem doloribus? Cum, saepe minima. Veritatis eos deleniti tempore est aut quia eveniet. Natus ipsum rem in voluptatum suscipit reprehenderit alias!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex natus sint expedita accusamus enim maiores dicta ut magnam amet, blanditiis dolore et aliquam tenetur quos quas. Deserunt dolores non hic.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur laborum dignissimos impedit natus, asperiores unde quae ipsum obcaecati voluptas molestiae, perspiciatis, iste maxime. Sunt non quibusdam facere mollitia at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quibusdam laboriosam ullam maiores fuga ducimus, veritatis nesciunt explicabo aliquam, nobis iusto, deleniti recusandae. Necessitatibus, ipsam neque iste praesentium dolorem iusto!</p>
         </article>
     </main>
-    <script src="script/script.js"></script>
+    <script src="script/script1.js"></script>
 </body>
 </html>
