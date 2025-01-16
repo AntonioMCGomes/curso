@@ -7,19 +7,25 @@
     <style>
         div.contêiner{
             background-color: lightsalmon;
-            display: flex;
             
+            display: flex;
+            flex-flow: row wrap;
+            align-content: flex-start;
+            height: 400px;
+
         }
 
         div.item{
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            flex: auto;
+            padding: 40px;
+            
         }
     </style>
 </head>
 <body>
+    <h1>Alinhamento de elementos empacotados</h1>
     <!--
     * Direção
 
@@ -118,13 +124,20 @@
     
     -->
     <div class="contêiner">
-        <div class="item" >A</div>
-        <div class="item" >B</div>
-        <div class="item" >C</div>
-        <div class="item" >D</div>
-        <div class="item" >E</div>
-        <div class="item" >F</div>
-        <div class="item" >G</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+
+
 
     </div>
 </body>
