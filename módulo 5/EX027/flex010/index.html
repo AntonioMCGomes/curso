@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.contêiner{
+            background-color: lightsalmon;
+            display: flex;
+
+            flex-flow: row nowrap;
+            
+        }
+
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 0; /*Quebra o contúdo*/
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-grow e Flex-shrink</h1>
+
+    <!--
+        Configuração apenas para contêineres-filho.
+
+        * Flex-grow (crescer) Padrão 0; 
+
+        * Flex-shrink (diminuir) Padrão 1;
+        
+        IMPORTANTE: Não é uma propriedade com valores binários.
+
+        É possível aplicar uma configuração de flex-grow para cada item-filho com um id, por exemplo.
+
+        - Valores diferentes do padrão para flex-grow.
+        
+        Pode-se configurar  flex-grow para 0 1 2. Dessa forma, o 0 indicará que o elemento não crescerá. O 1, por sua vez, indicará crescimento, se o elemento-pai crescer. E, por último, o 2 indicará que o terceiro item crescerá o dobro do segundo item. 
+
+        No entanto, em uma configuração 0 2 2, não indica que o segundo item crescerá o dobro, porque não há referencial para ele. Nem o terceiro crescerá o dobro do segundo. Haverá, no caso dos dois últimos itens, um crescimento proporcional. 
+
+         - Valores diferentes do padrão para flex-shrink.
+
+        Pode-se configurar  flex-shrink para 0 1 2. Dessa forma, o 0 indicará que o elemento não diminuirá. O 1, por sua vez, indicará encolhimento, se o elemento-pai diminuir. E, por último, o 2 indicará que o terceiro item encolherá o dobro do segundo item. 
+
+        No entanto, em uma configuração 0 2 2, não indica que o segundo item encolherá o dobro, porque não há referencial para ele. Nem o terceiro diminuirá o dobro do segundo. Haverá, no caso dos dois últimos itens, um encolhimento proporcional. 
+
+        O ideal é trabalhar com estas três propriedades juntas:
+
+            - flex-basis: 150px;
+            - flex-grow: 0;
+            - flex-shrink: 1;
+
+
+    -->
+    <div class="contêiner">
+        <div class="item" >A</div>
+        <div class="item" >B</div>
+        <div class="item" >C</div>
+       
+    </div>
+</body>
+</html>
