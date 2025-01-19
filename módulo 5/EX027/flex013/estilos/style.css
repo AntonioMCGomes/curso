@@ -18,28 +18,29 @@ header{
     background-color: grey;
     color: white;
     padding: 10px;
-    display: flex;
+
+    display: flex; /*contêiner-pai*/
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-header > h1{
-    border: 1px dotted black;
+header > h1{ /*contêiner-filho para header*/
+    /*border: 1px dotted black;*/
     text-shadow: 1px 1px 2px black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.456);
 }
 
-header > nav{
-    border: 1px dotted black;
+header > nav{/*contêiner-pai para a(links)/contêiner-filho para header*/
+    /*border: 1px dotted black;*/
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    
-    
 }
 
-header > nav > a{
+header > nav > a{ 
     background-color: black;
     color: white;
     padding: 10px;
@@ -63,4 +64,5 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.338);
 }
+
 
