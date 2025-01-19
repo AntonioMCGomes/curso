@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.contêiner{
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+            
+        }
+
+        div.item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            
+            
+        }
+
+        div#CxA{
+            flex: 0 1 200px; /*shorthand*/
+        }
+        div#CxB{
+            flex: 1 1 150px; /*shorthand*/
+        }
+        div#CxC{
+            flex: 1 8 auto; /*shorthand*/
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Propriedade Flex</h1>
+    <!--
+    * A propriedade Flex
+
+        Shorthand para flex-grow, flex-shrink e flex-basis respectivamente.
+        
+        - flex: 0 1 150px;
+    -->
+
+    <!--
+        IMPORTANTE: É possível simplificar mais ainda a shorthand para flex-grow(shrink e basis), devido ao uso recorrente de valores.
+        
+        flex: 0 1 auto é uma configuração padrão. 
+        Posso trocá-la por:
+
+            flex: initial;
+
+        Outra muito comum é flex: 0 0 auto. Posso trocá-la por (Não haverá flexibilidade para grow nem shrink.):
+
+            flex: none;
+
+        Outra muito comum é flex: 1 1 auto. Posso trocá-la por (Ao contrário da configuração anterior, haverá o máximo de flexibilidade possível.) 
+
+            flex: auto;
+
+        Ainda se pode declarar o flex desta forma:
+
+            flex: 3
+            
+            * Implica dizer que o valor de grow foi declarado (3) e os valores de shrink e do basis ficam em padrão, 1 e auto, respectivamente. 
+        
+    -->
+    <div class="contêiner">
+        <div class="item" id="CxA">A</div>
+        <div class="item" id="CxB">B</div>
+        <div class="item" id="CxC">C</div>
+       
+    </div>
+</body>
+</html>
