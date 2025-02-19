@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Passion One", serif; 
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(127, 255, 212, 0.49);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.234);     
+}
+
+section > form > h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.123);   
+}
+
+.input{ 
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #33333385;
+}
+
+.input:hover{
+    background-color: cadetblue;
+}
+
+.enviar{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(137, 43, 226, 0.345);
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.enviar:hover{
+    background-color: aliceblue;
+    color: #33333385;
+}
+
+
+#user{
+    position: relative;
+    top: 9%;
+    left: 3%;
+    color: #33333385;
+    font-size: 35px;
+    pointer-events: none; /*Impede que o ícone interfira na área do input*/  
+}
+
+#pass{
+    position: relative;
+    top:9%;
+    left: 3%;
+    color: #33333385;
+    font-size: 35px;
+    pointer-events: none; /*Impede que o ícone interfira na área do input*/
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 1.5em;
+    color: #33333385;;
+}
+
+label{
+    display: none;
+}
+
+/*
+
+@media screen and (min-width:992px) {
+    
+    #user{
+        position: absolute;
+        left: 38%;
+    }
+
+    #pass{
+        position: absolute;
+        left: 38%;
+    }
+}
+
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+    
+    #user{
+        position: absolute;
+        left: 8%;
+    }
+
+    #pass{
+        position: absolute;
+        left: 8%;
+    }
+}
+
+*/

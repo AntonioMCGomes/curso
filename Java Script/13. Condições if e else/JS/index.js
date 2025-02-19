@@ -12,7 +12,7 @@ if (interruptor == "on"){
 var hora = new Date().gethour();
 alert(hora);
 
-Em JavaScritp, as condições são informada entre parênteses. O "elif" em Python é escrito em sua forma não contraída "else if".
+Em JavaScritp, as condições são informadas entre parênteses. O "elif" em Python é escrito em sua forma não contraída "else if".
 
 if (hora < 12){
     alert('Bom dia');

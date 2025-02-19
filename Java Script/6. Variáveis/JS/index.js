@@ -15,7 +15,7 @@ c = a + b;
 //reatribuição de variáveis em var. Em let e const não é possível.
 
 var a = 8
-// O resultado será oitro, em vez de 4.
+// O resultado será oito, em vez de 4.
 
 //Em concatenção de váriaveis, usa-se o operador de adição. Entretanto, o Java Script fará a junção das duas string. Assim, para separá-las, caso necessário, use um espaço em branco com duas aspas " " e o operador de adição ao final da primeira string e no começo da string seguinte.
     //var nome, sobrenome, nomeCompleto;

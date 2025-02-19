@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      position: relative;
+      width: 300px;
+      height: 100px;
+      border: 1px solid #000;
+    }
+
+    .input-field {
+      position: absolute;
+      top: 30px;
+      left: 50px;
+      width: 200px;
+      height: 30px;
+      z-index: 1;
+    }
+
+    .icon {
+      position: absolute;
+      top: 30px;
+      left: 50px;
+      z-index: 2;
+      pointer-events: none; /* Isso impede que o ícone interfira na área de clique do input */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" class="input-field">
+    <img src="icon.png" alt="Ícone" class="icon">
+  </div>
+</body>
+</html>
